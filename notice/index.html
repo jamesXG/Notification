@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>桌面通知-Notification</title>
+  <style>
+    * { padding: 0; margin: 0; font-size: 18px; }
+    .container { position: absolute; width: 100%; height: 100%; }
+    .main { display: flex; flex-direction: column; align-items: center; }
+    button { width: 200px; height: 50px; border: none; color: #fff; border-radius: 10px; margin: 20px 0; outline: none; cursor: pointer; }
+    #notice_1 { background: #3399ff; }
+    #notice_2 { background: #00cc66; }
+    button:hover { opacity: .9; }
+    #notice_1:active { background: linear-gradient(to bottom, #3399ff, #5cadff); background: -webkit-linear-gradient(bottom,  #3399ff, #5cadff) }
+    #notice_2:active { background: linear-gradient(to bottom, #00cc66, #00e673); background: -webkit-linear-gradient(bottom, #00cc66, #00e673) }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="main">
+      <button id="notice_1">无语音通知</button>
+      <button id="notice_2">语音通知</button>
+    </div>
+  </div>
+</body>
+<script src="./index.js"></script>
+</html>
