@@ -81,3 +81,5 @@ if (!('Notification' in window)) {
   }
 }
 ```
+### 语音资源合成
+[百度广播语音平台](https://developer.baidu.com/vcast)
