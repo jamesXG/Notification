@@ -1,18 +1,18 @@
 # Notification
 ## 前言
----
+
 之前在浏览Youtube时，突然看到浏览器右上角弹出一个通知，点击就就进到了指定视频界面，感觉很是不错，如果加上**语音效果**结合WebSocket，正好可以用到自己的毕业设计之中。
 
 ## 关于Notification API
----
+
 在[MDN](https://developer.mozilla.org/zh-CN/docs/Web/API/notification)上的介绍是：**用于向用户配置和显示桌面通知**，使用的时候必须是在**Web Worker**中使用。更为详细的介绍可以去看看[HTML5 桌面通知：Notification API](https://juejin.im/post/59ed37f5f265da431e15eaac)，这位大佬已经写的很详细了，线上demo可以点击[线上demo](https://bs.xcang.xyz/notice/)。
 
 ## 展示效果
----
+
 ![notice](https://user-gold-cdn.xitu.io/2019/3/8/1695b577f57742fd?w=828&h=222&f=png&s=70197)
 
 ## 构造方法
----
+
 `let notification = new Notification(title, options)`
 ### 参数
 > `title`：显示的通知标题  
@@ -26,12 +26,12 @@
 >> tag | 主键ID
 >> icon | 显示的图片地址
 ### 兼容性
----
+
 
 ![](https://user-gold-cdn.xitu.io/2019/3/8/1695b8c80bdbe2eb?w=2078&h=228&f=png&s=52227)
 
 ## 实现语音
----
+
 在[简单了解HTML5中的Web Notification桌面通知](https://www.zhangxinxu.com/wordpress/2016/07/know-html5-web-notification/)中作者列出了`silent`和`sound`属性可用于语音播放，但亲测后并不生效。
 ```javascript
 // new Notification(title, options)
