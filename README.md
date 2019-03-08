@@ -82,4 +82,4 @@ if (!('Notification' in window)) {
 }
 ```
 ### 语音资源合成
-[百度广播语音平台](https://developer.baidu.com/vcast)
+[百度广播开放平台](https://developer.baidu.com/vcast)
