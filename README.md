@@ -5,7 +5,7 @@
 
 ## 关于Notification API
 
-在[MDN](https://developer.mozilla.org/zh-CN/docs/Web/API/notification)上的介绍是：**用于向用户配置和显示桌面通知**，使用的时候必须是在**Web Worker**中使用。更为详细的介绍可以去看看[HTML5 桌面通知：Notification API](https://juejin.im/post/59ed37f5f265da431e15eaac)，这位大佬已经写的很详细了，线上demo可以点击[线上demo](https://bs.xcang.xyz/notice/)。
+在[MDN](https://developer.mozilla.org/zh-CN/docs/Web/API/notification)上的介绍是：**用于向用户配置和显示桌面通知**，使用的时候必须是在**Web Worker**中使用。更为详细的介绍可以去看看[HTML5 桌面通知：Notification API](https://juejin.im/post/59ed37f5f265da431e15eaac)，这位大佬已经写的很详细了，线上demo：[线上demo](https://bs.xcang.xyz/notice/)。
 
 ## 展示效果
 
@@ -18,13 +18,13 @@
 > `title`：显示的通知标题  
 > `options`：设置通知的对象：其属性包含如下：  
 
->> 属性 | 作用
->> ---------| -------------
->> dir | 控制文字的方向，自动：`auto`、从左到右：`ltr`、从右到左：`rtl`
->> lang | 指定通知中所使用的语言
->> body | 显示的文本内容
->> tag | 主键ID
->> icon | 显示的图片地址
+ 属性 | 作用
+ ---------| -------------
+ dir | 控制文字的方向，自动：`auto`、从左到右：`ltr`、从右到左：`rtl`
+ lang | 指定通知中所使用的语言
+ body | 显示的文本内容
+ tag | 主键ID
+ icon | 显示的图片地址
 ### 兼容性
 
 
